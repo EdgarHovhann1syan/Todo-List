@@ -1,0 +1,92 @@
+.Todo {
+    display: flex;
+     justify-content: space-between;
+   flex-direction: row;
+    padding: 10px;
+    
+    margin: 10px 0;
+   
+}
+
+.Todo p {
+    margin: 0;
+    flex: 1;
+    
+    
+}
+
+.todoItem {
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 600px;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px; 
+    justify-content: space-between;
+    padding: 20px;
+}
+.DeleteButton {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+    
+    
+    
+}
+
+.DeleteButton:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.ReactModal__Content {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.ReactModal__Content input {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white; 
+}
+
+.ReactModal__Content button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ReactModal__Content button:hover {
+    background-color: #0056b3;
+}
